@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1859A1781E6D63E80063DF64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A1771E6D63E80063DF64 /* main.m */; };
+		1859A17B1E6D63E80063DF64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A17A1E6D63E80063DF64 /* AppDelegate.m */; };
+		1859A17E1E6D63E80063DF64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A17D1E6D63E80063DF64 /* ViewController.m */; };
+		1859A1811E6D63E80063DF64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1859A17F1E6D63E80063DF64 /* Main.storyboard */; };
+		1859A1831E6D63E80063DF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859A1821E6D63E80063DF64 /* Assets.xcassets */; };
+		1859A1861E6D63E80063DF64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1859A1841E6D63E80063DF64 /* LaunchScreen.storyboard */; };
+		1859A1911E6D63E90063DF64 /* PrinterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A1901E6D63E90063DF64 /* PrinterTests.m */; };
+		1859A19C1E6D63E90063DF64 /* PrinterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A19B1E6D63E90063DF64 /* PrinterUITests.m */; };
+		1859A1AF1E6D6DD20063DF64 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859A1AE1E6D6DD20063DF64 /* QuickLook.framework */; };
+		18C9293A1E6F97AB00D9FA6E /* HLPdfManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C929391E6F97AB00D9FA6E /* HLPdfManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1859A18D1E6D63E80063DF64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1859A16B1E6D63E80063DF64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1859A1721E6D63E80063DF64;
+			remoteInfo = Printer;
+		};
+		1859A1981E6D63E90063DF64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1859A16B1E6D63E80063DF64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1859A1721E6D63E80063DF64;
+			remoteInfo = Printer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1859A1731E6D63E80063DF64 /* Printer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Printer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1859A1771E6D63E80063DF64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1859A1791E6D63E80063DF64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1859A17A1E6D63E80063DF64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1859A17C1E6D63E80063DF64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1859A17D1E6D63E80063DF64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1859A1801E6D63E80063DF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1859A1821E6D63E80063DF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1859A1851E6D63E80063DF64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1859A1871E6D63E80063DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1859A18C1E6D63E80063DF64 /* PrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1859A1901E6D63E90063DF64 /* PrinterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrinterTests.m; sourceTree = "<group>"; };
+		1859A1921E6D63E90063DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1859A1971E6D63E90063DF64 /* PrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1859A19B1E6D63E90063DF64 /* PrinterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrinterUITests.m; sourceTree = "<group>"; };
+		1859A19D1E6D63E90063DF64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1859A1AE1E6D6DD20063DF64 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		18C929381E6F97AB00D9FA6E /* HLPdfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPdfManager.h; sourceTree = "<group>"; };
+		18C929391E6F97AB00D9FA6E /* HLPdfManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPdfManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1859A1701E6D63E80063DF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1859A1AF1E6D6DD20063DF64 /* QuickLook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1859A1891E6D63E80063DF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1859A1941E6D63E90063DF64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1859A16A1E6D63E80063DF64 = {
+			isa = PBXGroup;
+			children = (
+				1859A1751E6D63E80063DF64 /* Printer */,
+				1859A18F1E6D63E90063DF64 /* PrinterTests */,
+				1859A19A1E6D63E90063DF64 /* PrinterUITests */,
+				1859A1741E6D63E80063DF64 /* Products */,
+				1859A1AD1E6D6DD20063DF64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1859A1741E6D63E80063DF64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1859A1731E6D63E80063DF64 /* Printer.app */,
+				1859A18C1E6D63E80063DF64 /* PrinterTests.xctest */,
+				1859A1971E6D63E90063DF64 /* PrinterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1859A1751E6D63E80063DF64 /* Printer */ = {
+			isa = PBXGroup;
+			children = (
+				1859A1791E6D63E80063DF64 /* AppDelegate.h */,
+				1859A17A1E6D63E80063DF64 /* AppDelegate.m */,
+				1859A17C1E6D63E80063DF64 /* ViewController.h */,
+				1859A17D1E6D63E80063DF64 /* ViewController.m */,
+				18C929381E6F97AB00D9FA6E /* HLPdfManager.h */,
+				18C929391E6F97AB00D9FA6E /* HLPdfManager.m */,
+				1859A17F1E6D63E80063DF64 /* Main.storyboard */,
+				1859A1821E6D63E80063DF64 /* Assets.xcassets */,
+				1859A1841E6D63E80063DF64 /* LaunchScreen.storyboard */,
+				1859A1871E6D63E80063DF64 /* Info.plist */,
+				1859A1761E6D63E80063DF64 /* Supporting Files */,
+			);
+			path = Printer;
+			sourceTree = "<group>";
+		};
+		1859A1761E6D63E80063DF64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1859A1771E6D63E80063DF64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1859A18F1E6D63E90063DF64 /* PrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1859A1901E6D63E90063DF64 /* PrinterTests.m */,
+				1859A1921E6D63E90063DF64 /* Info.plist */,
+			);
+			path = PrinterTests;
+			sourceTree = "<group>";
+		};
+		1859A19A1E6D63E90063DF64 /* PrinterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1859A19B1E6D63E90063DF64 /* PrinterUITests.m */,
+				1859A19D1E6D63E90063DF64 /* Info.plist */,
+			);
+			path = PrinterUITests;
+			sourceTree = "<group>";
+		};
+		1859A1AD1E6D6DD20063DF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1859A1AE1E6D6DD20063DF64 /* QuickLook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1859A1721E6D63E80063DF64 /* Printer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1859A1A01E6D63E90063DF64 /* Build configuration list for PBXNativeTarget "Printer" */;
+			buildPhases = (
+				1859A16F1E6D63E80063DF64 /* Sources */,
+				1859A1701E6D63E80063DF64 /* Frameworks */,
+				1859A1711E6D63E80063DF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Printer;
+			productName = Printer;
+			productReference = 1859A1731E6D63E80063DF64 /* Printer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1859A18B1E6D63E80063DF64 /* PrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1859A1A31E6D63E90063DF64 /* Build configuration list for PBXNativeTarget "PrinterTests" */;
+			buildPhases = (
+				1859A1881E6D63E80063DF64 /* Sources */,
+				1859A1891E6D63E80063DF64 /* Frameworks */,
+				1859A18A1E6D63E80063DF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1859A18E1E6D63E80063DF64 /* PBXTargetDependency */,
+			);
+			name = PrinterTests;
+			productName = PrinterTests;
+			productReference = 1859A18C1E6D63E80063DF64 /* PrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1859A1961E6D63E90063DF64 /* PrinterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1859A1A61E6D63E90063DF64 /* Build configuration list for PBXNativeTarget "PrinterUITests" */;
+			buildPhases = (
+				1859A1931E6D63E90063DF64 /* Sources */,
+				1859A1941E6D63E90063DF64 /* Frameworks */,
+				1859A1951E6D63E90063DF64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1859A1991E6D63E90063DF64 /* PBXTargetDependency */,
+			);
+			name = PrinterUITests;
+			productName = PrinterUITests;
+			productReference = 1859A1971E6D63E90063DF64 /* PrinterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1859A16B1E6D63E80063DF64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jack.lihongliang;
+				TargetAttributes = {
+					1859A1721E6D63E80063DF64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4FQ93U4G75;
+						ProvisioningStyle = Automatic;
+					};
+					1859A18B1E6D63E80063DF64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1859A1721E6D63E80063DF64;
+					};
+					1859A1961E6D63E90063DF64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1859A1721E6D63E80063DF64;
+					};
+				};
+			};
+			buildConfigurationList = 1859A16E1E6D63E80063DF64 /* Build configuration list for PBXProject "Printer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1859A16A1E6D63E80063DF64;
+			productRefGroup = 1859A1741E6D63E80063DF64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1859A1721E6D63E80063DF64 /* Printer */,
+				1859A18B1E6D63E80063DF64 /* PrinterTests */,
+				1859A1961E6D63E90063DF64 /* PrinterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1859A1711E6D63E80063DF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1859A1861E6D63E80063DF64 /* LaunchScreen.storyboard in Resources */,
+				1859A1831E6D63E80063DF64 /* Assets.xcassets in Resources */,
+				1859A1811E6D63E80063DF64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1859A18A1E6D63E80063DF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1859A1951E6D63E90063DF64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1859A16F1E6D63E80063DF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1859A17E1E6D63E80063DF64 /* ViewController.m in Sources */,
+				1859A17B1E6D63E80063DF64 /* AppDelegate.m in Sources */,
+				18C9293A1E6F97AB00D9FA6E /* HLPdfManager.m in Sources */,
+				1859A1781E6D63E80063DF64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1859A1881E6D63E80063DF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1859A1911E6D63E90063DF64 /* PrinterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1859A1931E6D63E90063DF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1859A19C1E6D63E90063DF64 /* PrinterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1859A18E1E6D63E80063DF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1859A1721E6D63E80063DF64 /* Printer */;
+			targetProxy = 1859A18D1E6D63E80063DF64 /* PBXContainerItemProxy */;
+		};
+		1859A1991E6D63E90063DF64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1859A1721E6D63E80063DF64 /* Printer */;
+			targetProxy = 1859A1981E6D63E90063DF64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1859A17F1E6D63E80063DF64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1859A1801E6D63E80063DF64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1859A1841E6D63E80063DF64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1859A1851E6D63E80063DF64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1859A19E1E6D63E90063DF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1859A19F1E6D63E90063DF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1859A1A11E6D63E90063DF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4FQ93U4G75;
+				INFOPLIST_FILE = Printer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihongliang.bluetooth.Printer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1859A1A21E6D63E90063DF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4FQ93U4G75;
+				INFOPLIST_FILE = Printer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihongliang.bluetooth.Printer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1859A1A41E6D63E90063DF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihongliang.bluetooth.PrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Printer.app/Printer";
+			};
+			name = Debug;
+		};
+		1859A1A51E6D63E90063DF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihongliang.bluetooth.PrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Printer.app/Printer";
+			};
+			name = Release;
+		};
+		1859A1A71E6D63E90063DF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihongliang.bluetooth.PrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Printer;
+			};
+			name = Debug;
+		};
+		1859A1A81E6D63E90063DF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihongliang.bluetooth.PrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Printer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1859A16E1E6D63E80063DF64 /* Build configuration list for PBXProject "Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1859A19E1E6D63E90063DF64 /* Debug */,
+				1859A19F1E6D63E90063DF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1859A1A01E6D63E90063DF64 /* Build configuration list for PBXNativeTarget "Printer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1859A1A11E6D63E90063DF64 /* Debug */,
+				1859A1A21E6D63E90063DF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1859A1A31E6D63E90063DF64 /* Build configuration list for PBXNativeTarget "PrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1859A1A41E6D63E90063DF64 /* Debug */,
+				1859A1A51E6D63E90063DF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1859A1A61E6D63E90063DF64 /* Build configuration list for PBXNativeTarget "PrinterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1859A1A71E6D63E90063DF64 /* Debug */,
+				1859A1A81E6D63E90063DF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1859A16B1E6D63E80063DF64 /* Project object */;
+}
